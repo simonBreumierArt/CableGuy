@@ -55,8 +55,12 @@ def setup_curve_to_tube_modifier(obj, radius, ring):
     mod = obj.modifiers.get(mod_name)
     if mod:
         try:
-            mod["Socket_5"] = radius
-            mod["Socket_2"] = ring
+            if blender_version >= (5, 2, 0):
+                            bpy.context.object.modifiers["Curve to Tube"].properties.inputs.Socket_5.value = radius
+                            bpy.context.object.modifiers["Curve to Tube"].properties.inputs.Socket_2.value = ring
+            elif blender_version >= (5, 0, 0):
+                mod["Socket_5"] = radius
+                mod["Socket_2"] = ring    
         except KeyError:
             pass
         

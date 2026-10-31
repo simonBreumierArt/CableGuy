@@ -3,7 +3,7 @@
   "blocklist": [],
   "data": [
     {
-      "schema_version": "1.0.0",
+      "schema_version": "1.0.1",
       "id": "CableGuy",
       "name": "CableGuy",
       "tagline": "CableGuy",
@@ -15,8 +15,8 @@
       ],
       "blender_version_min": "4.2.0",
       "archive_url": "./CableGuy.zip",
-      "archive_size": 9635,
-      "archive_hash": "sha256:bc2503053ad5781eabbe099ceab51aef5de4256618c6812355062fa8cc9bf42d"
+      "archive_size": 9706,
+      "archive_hash": "sha256:e901b3d360651d672dd9d17cae4a59da7c4e72d99a175de8e212482d4475ded0"
     }
   ]
 }
