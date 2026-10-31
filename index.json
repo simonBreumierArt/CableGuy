@@ -3,11 +3,11 @@
   "blocklist": [],
   "data": [
     {
-      "schema_version": "1.0.1",
+      "schema_version": "1.0.2",
       "id": "CableGuy",
       "name": "CableGuy",
       "tagline": "CableGuy",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "type": "add-on",
       "maintainer": "Simon Breumier",
       "license": [
@@ -15,8 +15,8 @@
       ],
       "blender_version_min": "5.0.0",
       "archive_url": "./CableGuy.zip",
-      "archive_size": 9706,
-      "archive_hash": "sha256:e901b3d360651d672dd9d17cae4a59da7c4e72d99a175de8e212482d4475ded0"
+      "archive_size": 8581,
+      "archive_hash": "sha256:217fe3cbbafb4c1e515c563aba6231e5c3d292bc5b5c57f9a909521b2091e39c"
     }
   ]
 }

@@ -53,6 +53,7 @@ def setup_curve_to_tube_modifier(obj, radius, ring):
             view_layer.objects.active = active_obj
 
     mod = obj.modifiers.get(mod_name)
+    blender_version = bpy.app.version
     if mod:
         try:
             if blender_version >= (5, 2, 0):
