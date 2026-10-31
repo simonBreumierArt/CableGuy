@@ -7,13 +7,13 @@
       "id": "CableGuy",
       "name": "CableGuy",
       "tagline": "CableGuy",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "add-on",
       "maintainer": "Simon Breumier",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "blender_version_min": "4.2.0",
+      "blender_version_min": "5.0.0",
       "archive_url": "./CableGuy.zip",
       "archive_size": 9706,
       "archive_hash": "sha256:e901b3d360651d672dd9d17cae4a59da7c4e72d99a175de8e212482d4475ded0"
