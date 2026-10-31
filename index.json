@@ -1,0 +1,22 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "CableGuy",
+      "name": "CableGuy",
+      "tagline": "CableGuy",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "Simon Breumier",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "archive_url": "./CableGuy.zip",
+      "archive_size": 9635,
+      "archive_hash": "sha256:bc2503053ad5781eabbe099ceab51aef5de4256618c6812355062fa8cc9bf42d"
+    }
+  ]
+}
